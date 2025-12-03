@@ -53,3 +53,26 @@ while i<len(l)-1 :
     #     print("None")
 if flag == 0 :
     print("There is no repetition")
+
+
+
+# Find the duplicates in the list 
+
+# l = [2, 3, 4, 2, 3, 5]
+
+# for i in range(len(l)):
+#     for j in range(i+1,len(l)):
+#         if l[i]==l[j]:
+#             print(l[i])
+
+# or
+
+l = [2, 3, 2, 2, 3, 5]
+duplicates = []
+
+for i in range(len(l)):
+    for j in range(i+1, len(l)):
+        if l[i] == l[j] and l[i] not in duplicates:
+            duplicates.append(l[i])
+
+print(duplicates)
