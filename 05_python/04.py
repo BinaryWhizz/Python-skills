@@ -33,5 +33,8 @@ def column(M,j):
 def mat_mul(A,B):
     dim=len(A)
     C = initialize_mat(dim)
-    # for i in range(dim):
-    #     for j in range(dim):
+    for i in range(dim):
+        for j in range(dim):
+            # C[i][j] = ith row of A * jth col of B
+            C[i][j] = dot_product(row(A,i),column(B,j))
+    return C       
