@@ -18,6 +18,14 @@ for i in d:
 print(d)               # {'A': 0, 'B': 0, 'C': 0} 
 
 
+e = {}
+
+e["Monugya"] = [93,99,95]
+e["Binary"] = [74,63,82]
+e["Itachi"] = [81,66,90]
+
+print(e)
+print(e['Binary'][1]) 
 
 
 JsUser = {
@@ -86,9 +94,9 @@ fbUser = {
 
 
 squared_num = { x:x**2 for x in range(6)}
-print(squared_num)
+print(squared_num)               # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
-squared_num.clear()              # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+squared_num.clear()              
 print(squared_num)               # {}
 
 
@@ -105,3 +113,4 @@ print(new_dict)                  # {'a': 'Delicious', 'b': 'Delicious', 'c': 'De
 new_dict01 = dict.fromkeys(keys, keys)
 
 print(new_dict01)       # {'a': ['a', 'b', 'c', 'd'], 'b': ['a', 'b', 'c', 'd'], 'c': ['a', 'b', 'c', 'd'], 'd': ['a', 'b', 'c', 'd']}
+
