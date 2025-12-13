@@ -29,10 +29,26 @@
 # for i in range(1,n+1):
 #     print(n,"x",i,'=',n*i)
 
-# Find the first non-repeated character
+
+# Find the first non-repeated character - Give a string, find the first non-repeated character 
+
+# s = "teeteracdacdz" 
+
+# for i in s:
+#     if s.count(i) == 1:
+#         print("Char is: ", i)
+#         break                    # Using break to print the first non-repeated character, otherwise z also got printed
 
 
+# Validate Input - Keep asking the user for input untill they enter a number between 1 to 10 
 
+# n = int(input())
+
+# while n>0:
+#     if n>=1 and n<=10:
+#         print("Yes it is")
+#         break
+#     n = int(input())
 
 
 
