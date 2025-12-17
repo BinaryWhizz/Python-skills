@@ -61,11 +61,68 @@ print(l1, l2)         # [100, 2, 3] [100, 2, 3] , reason : Internal impementaion
 
 l4 = [1,2,3]
 l5 = list(l4)
-l6 = l1[:]
-l7 = l1.copy() 
+l6 = l4[:]
+l7 = l4.copy()        # Different object → same values 
 
 l5[0] = 100
 l6[1] = 200
 l7[2] = 300 
 
-print(l1, l2, l3, l4)
+print(l4, l5, l6, l7) 
+
+
+l8 = l4
+
+# is checks whether two variables refer to the same object in memory,
+# NOT whether the lists have the same values
+
+print(l4 is l5)        # False  , because of different memory location , l7 = l4.copy(), Different object → same values  
+print(l4 is l6)        # False  ,            ""
+print(l4 is l7)        # False  ,            ""
+print(l4 is l8)        # Ture   , This does NOT create a new list. It simply points l8 to the same list object as l4 
+
+
+
+# def add(x):
+#     x = x+1
+#     return x
+
+# x = 5
+# print(add(x))        # 6
+# print(x)             # 5 
+
+
+def add(x):
+    x.append(1)
+    return x
+
+x = [5]
+print(add(x))          # [5,1]
+print(x)               # [5,1] 
+
+
+
+l = [1,2,3] 
+print(l)               # [1, 2, 3]
+
+l.append(4)
+print(l)               # [1, 2, 3, 4]
+
+l.remove(2)
+print(l)               # [1, 3, 4] 
+
+# new
+l.insert(2,9)          # ----> (2,9) means 9 will be placed at 2nd index
+print(l)               # [1, 3, 9, 4] 
+
+l.pop(0)               # (0) ---> index 0, here index 0 == 1 will me removed 
+print(l)               # [3, 9, 4] 
+
+
+l = [2,6,1,50,3,7,5]
+l.sort() 
+print(l)               # [1, 2, 3, 5, 6, 7, 50]
+
+l.reverse()
+print(l)               # [50, 7, 6, 5, 3, 2, 1] 
+
