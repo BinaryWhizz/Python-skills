@@ -21,7 +21,7 @@ print(add(10, 15, 30))        # 30
 print(add( a = 20, b = 30, c = 40 ))       # Sequence of arguments here has nothing to do with he sequence parameters of 
                                            # add function the dependency between these two sequences has been eliminated     
                                            # completely. We mention the parameter name along with the argument over here  
-                                           # in function definition itself. This type functional arguments are referred as
+                                           # in function definition itself. This type function arguments are referred as
                                            # keyword arguments 
 
 # print(add(20))                # Error , add() missing 2 required positional arguments: 'a' and 'b'
@@ -101,4 +101,5 @@ print(add(40, b = 10, a = 50))
 # So output becomes:
 
 # 10
+
 # None
