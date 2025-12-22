@@ -11,3 +11,15 @@
 # If target is larger → search the right half.
 # Repeat until found or the range becomes empty.
 
+
+# Check if a given element k is present in a list L or not 
+
+def obvious_search(L,k):
+    for i in L:
+        if i == k:
+            return 1
+    return 0 
+
+L = list(range(100))
+print(L)
+print(obvious_search(L,2)) 
