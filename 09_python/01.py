@@ -1,5 +1,3 @@
-# Web Scrapping 
-
 # API 
 
 # Definition : API stands from Application Programming Interface. It is a set of rules and protocols that allows two applications to communicate with each other
