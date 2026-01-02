@@ -14,10 +14,9 @@ a = int(input())
 b = int(input())
 
 if a > b :
-    print("a is smaller")
-else :
     print("b is smaller")
-
+else :
+    print("a is smaller") 
 
 # # 3) Write a program to check whether a number is even or odd.
 
@@ -288,4 +287,5 @@ else:
         print("b is younger")
     else:
         print("a is younger")
+
 
