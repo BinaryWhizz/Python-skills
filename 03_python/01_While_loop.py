@@ -134,3 +134,21 @@ while n > 0:
     digit = n % 10
     print(digit)
     n //= 10
+
+
+# Keep asking the user to enter a number until they enter 0.
+
+n = int(input())
+while n>0:
+    n = int(input())
+    if n==0:
+        print("Stop")  
+
+
+# Ask the user to enter a password until the correct password is entered.
+
+password = input()
+while len(password)>0:
+    password2nd = input()
+    if password2nd==password:
+        print("Matched")
