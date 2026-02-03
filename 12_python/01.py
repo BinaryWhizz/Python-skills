@@ -1,5 +1,4 @@
-# Data Transformation Methods 
-
+# Data Transformation Methods
 
 # Investigating distribution of numeric data
 
