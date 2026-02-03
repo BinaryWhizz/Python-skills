@@ -1,0 +1,32 @@
+﻿EmployeeID,gender,department,Days Present,Accuracy_of_Work,Meeting Project Deadlines,Task Completion Rates,Interpersonal Skills Rating,Decision-Making Skills Rating,Sales Revenue Generated,churned
+1,Male,Sales,20,High,Yes,85,8,7,51638,No
+2,Female,Marketing,22,Medium,Yes,90,7,6,97797,Yes
+3,Male,Human Resources,25,High,No,80,9,8,95341,No
+4,Male,Engineering,19,Low,Yes,75,6,5,91806,No
+5,Female,Finance,23,Medium,Yes,85,7,7,64247,Yes
+6,Male,Sales,21,High,Yes,95,8,8,89988,No
+7,Female,Marketing,24,Low,No,70,5,4,70934,Yes
+8,Male,Human Resources,18,Medium,Yes,80,6,6,96578,No
+9,Male,Engineering,20,High,Yes,90,8,7,74219,No
+10,Female,Finance,22,Medium,Yes,85,7,6,87009,Yes
+11,Male,Sales,25,High,No,75,9,8,77785,No
+12,Female,Marketing,19,Low,Yes,70,6,5,97201,Yes
+13,Male,Human Resources,23,Medium,Yes,80,7,7,67730,No
+14,Male,Engineering,21,High,Yes,90,8,8,93427,No
+15,Female,Finance,24,Low,No,65,5,4,77172,Yes
+16,Male,Sales,18,Medium,Yes,75,6,6,85737,No
+17,Female,Marketing,20,High,Yes,85,8,7,74871,Yes
+18,Male,Human Resources,22,Medium,Yes,80,7,6,63245,No
+19,Male,Engineering,25,High,No,70,9,8,53169,No
+20,Female,Finance,19,Low,Yes,65,6,5,81770,Yes
+21,Male,Sales,23,Medium,Yes,75,7,7,78482,No
+22,Female,Marketing,21,High,Yes,85,8,8,57836,Yes
+23,Male,Human Resources,24,Low,No,60,5,4,62885,No
+24,Male,Engineering,18,Medium,Yes,70,6,6,52579,No
+25,Female,Finance,20,High,Yes,80,8,7,75795,Yes
+26,Female,Finance,19,Low,Yes,65,6,5,81770,Yes
+27,Male,Sales,23,Medium,Yes,75,7,7,78482,No
+28,Female,Marketing,21,High,Yes,85,8,8,57836,Yes
+29,Male,Human Resources,24,Low,No,60,5,4,62885,No
+30,Male,Engineering,18,Medium,Yes,70,6,6,52579,No
+31,Female,Finance,20,High,Yes,80,8,7,75795,Yes
