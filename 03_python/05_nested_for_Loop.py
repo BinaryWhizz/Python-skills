@@ -14,18 +14,19 @@ print(c)
 
 n = int(input("Enter a number : "))
 
-if n >=2 :
+if n >= 2:
     print(2, end=' ')
+
 for i in range(3, n):
-    flag = False
+    flag = True   # assume prime
+
     for j in range(2, i):
-        if i % j == 0 : 
+        if i % j == 0:
             flag = False
             break
-        else:
-            flag = True
-    if flag : 
-        print(i, end = ' ') 
+
+    if flag:
+        print(i, end=' ')
 
 
 # Find the total profit/loss of each trader working in a trading firm. Information regarding number of traders and number of transactions in unknows.
