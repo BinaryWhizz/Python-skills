@@ -80,6 +80,36 @@ while n > 0:
 print("Reversed =", rev)
 
 
+# Separate each digit of a number and print it on the new line 
+
+n = int(input())
+
+i = 1 
+
+while n>0:
+    m = n%10
+    n = n//10
+    print(m)
+
+
+# Create a random number guessing game with python.
+
+import random
+
+number = random.randint(1, 100)
+
+while True:
+    guess = int(input("Enter your guess (1–100): "))
+
+    if guess == number:
+        print("Correct! You guessed it.")
+        break
+    elif guess < number:
+        print("Too low")
+    else:
+        print("Too high")
+
+
 # Print the multiplication table of a given number.
 
 n = int(input("Enter a number: "))
