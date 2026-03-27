@@ -125,3 +125,23 @@ for i in range(1,n+1):
 print(even)
 print(odd)
 
+
+# Accept a number and check if it a perfect number or not. A number whose sum of factors is equal to the number itself
+
+n = int(input())
+
+sum = 0
+
+flag = False
+
+for i in range(1,n+1):
+    if n%i==0:
+        sum += i
+        if sum == n:
+            flag = True
+        
+if flag:
+    print("Found")
+else:
+    print('Not this number')
+    
