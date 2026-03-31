@@ -38,3 +38,21 @@ print(obvious_sort1(l))
 
 
 # We just learnt that breaking our problem into smaller modules and solving them makes it easy on our mind
+
+
+
+
+# Checking the string is Pallindrome or not using function
+
+def paln(st):
+    rev = ''
+    for i in range(len(st)-1,-1,-1):
+        rev = rev + st[i]
+
+    if rev == st:
+        print('Pallindrome')
+    else:
+        print('Not a Pallindrome')
+
+paln('Monugya')
+paln('oyo') 
